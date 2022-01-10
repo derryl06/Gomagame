@@ -1,0 +1,94 @@
+body {
+  background-color: #082032;
+}
+
+body nav.navbar {
+  background-color: #334756 !important;
+}
+
+body nav.navbar .container-fluid.logo figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+body nav.navbar .container-fluid.logo figure img {
+  height: 30px;
+  width: 125px;
+}
+
+body nav.navbar .collapse a.btn.login {
+  background-color: #ff4c29;
+}
+
+body .container-fluid.article {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+body .container-fluid.article figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+body .container-fluid.article figure img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+body .container-fluid.article .content section h1 {
+  font-size: 24px;
+}
+
+body .container-fluid.article .content section article {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+body .container-fluid.article .content section article figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+body .container-fluid.article .content section article figure img {
+  height: 100%;
+  width: 100%;
+}
+
+footer .footer-top {
+  background-color: #334756;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+footer .footer-top figure {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer .footer-top .link ul {
+  padding: 0px;
+  margin: 0px;
+  height: 90px;
+  list-style: none;
+}
+
+footer .footer-top .link ul li {
+  text-align: center;
+  width: 40%;
+}
+
+footer .footer-top .link ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-top .link ul li:hover {
+  cursor: pointer;
+}
+
+footer .copyright {
+  height: 50px;
+  background-color: #263b4b;
+}
+/*# sourceMappingURL=home.css.map */

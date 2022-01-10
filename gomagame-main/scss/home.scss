@@ -1,0 +1,92 @@
+$background: #082032;
+$navColor: #334756;
+$buttonColor: #ff4c29;
+$footerTop: #334756;
+$copyright: #263b4b;
+@mixin padmar {
+  padding: 0px;
+  margin: 0px;
+}
+@mixin marginleftright {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+body {
+  background-color: $background;
+  nav.navbar {
+    background-color: $navColor !important;
+    .container-fluid.logo {
+      figure {
+        @include padmar();
+        img {
+          height: 30px;
+          width: 125px;
+        }
+      }
+    }
+    .collapse {
+      a.btn.login {
+        background-color: $buttonColor;
+      }
+    }
+  }
+  .container-fluid.article {
+    @include marginleftright();
+    figure {
+      @include padmar();
+      img {
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .content {
+      section {
+        h1 {
+          font-size: 24px;
+        }
+        article {
+          @include marginleftright();
+          figure {
+            @include padmar();
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  .footer-top {
+    background-color: $footerTop;
+    @include marginleftright();
+    figure {
+      @include padmar();
+    }
+    .link {
+      ul {
+        @include padmar();
+        height: 90px;
+        list-style: none;
+        li {
+          text-align: center;
+          width: 40%;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+        li:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .copyright {
+    height: 50px;
+    background-color: $copyright;
+  }
+}
